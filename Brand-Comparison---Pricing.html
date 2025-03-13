@@ -87,6 +87,22 @@
         </p>
       </div>
     </section>
+
+<script>
+function getPrice(type) {
+  var obj = document.getElementById(type);
+  var price = obj.options[obj.selectedIndex].getAttribute("data-price");
+  if (price == null)
+    price = 0;
+  return parseInt(price);
+}
+
+function updatePrice() {
+  document.getElementById("price").innerHTML = "Total: $" +
+    (getPrice("station") + getPrice("sani") + getPrice("tank size")+ getPrice("pressure switch") + getPrice("liquid sensor") + getPrice("control panel") + getPrice("dry fire"));
+}
+</script>
+	  
     <section class="u-clearfix u-grey-5 u-section-3" id="block-2">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-default u-text-1">Price Calculator</h2>
