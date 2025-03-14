@@ -321,6 +321,7 @@
 .footer-contact-info {
   display: flex;            /* line up items in a row by default */
   flex-direction: row;
+  justify-content: center;  /* centers them horizontally */
   align-items: center;      /* vertically center in the row */
   gap: 1rem;                /* space between each item */
 }
