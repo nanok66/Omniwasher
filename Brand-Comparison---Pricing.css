@@ -10,7 +10,10 @@
 .u-section-1 .u-image-1 {
   min-height: 838px;
   background-image: url("images/comparisongraph.png");
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
+  background-position: center;
+  background-size: contain; 
+  background-repeat: no-repeat;
 }
 
 .u-section-1 .u-container-layout-1 {
