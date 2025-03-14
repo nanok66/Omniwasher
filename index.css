@@ -317,3 +317,18 @@
     height: 298px;
   }
 }
+
+.footer-contact-info {
+  display: flex;            /* line up items in a row by default */
+  flex-direction: row;
+  align-items: center;      /* vertically center in the row */
+  gap: 1rem;                /* space between each item */
+}
+
+/* Stack them vertically on smaller screens */
+@media (max-width: 767px) {
+  .footer-contact-info {
+    flex-direction: column; 
+    align-items: flex-start; /* or center, whichever you prefer */
+  }
+}
