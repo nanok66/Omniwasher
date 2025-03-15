@@ -323,7 +323,7 @@
   flex-direction: row;
   justify-content: space-between;  /* centers them horizontally */
   align-items: center;      /* vertically center in the row */
-  gap: 1rem;                /* space between each item */
+  gap: 5rem;                /* space between each item */
 }
 
 /* Stack them vertically on smaller screens */
