@@ -334,6 +334,6 @@
   }
 }
 
-.u-text u-text-default u-text-1 {
+.no-wrap-text {
  white-space: no wrap;
 }
