@@ -333,3 +333,7 @@
     align-items: flex-start; /* or center, whichever you prefer */
   }
 }
+
+.u-text u-text-default u-text-1 {
+ white-space: no wrap;
+}
