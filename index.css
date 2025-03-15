@@ -338,11 +338,4 @@
  white-space: no wrap;
 }
 
-/* Turn your main footer container into a flex container */
-.u-sheet-1 {
-  display: flex;
-  flex-direction: row; 
-  align-items: center;        /* vertically center the items */
-  justify-content: space-between; /* space out the two sections */
-}
 
