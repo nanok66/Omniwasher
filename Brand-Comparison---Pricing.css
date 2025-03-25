@@ -95,6 +95,14 @@
   margin-bottom: 60px;
 }
 
+.footer-pre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* icons on left, contact info on right */
+  align-items: center;           /* vertically center them in the row */
+  gap: 1rem;                     /* spacing between items */
+}
+
 .footer-main {
   display: flex;
   flex-direction: row;
@@ -102,6 +110,7 @@
   align-items: center;           /* vertically center them in the row */
   gap: 1rem;                     /* spacing between items */
 }
+
 
 /* On mobile, stack them vertically */
 @media (max-width: 767px) {
