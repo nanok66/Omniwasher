@@ -97,6 +97,7 @@
 
 .footer-contact-info {
   display: flex;
+  flex-direction: column-reverse;
   flex-direction: row;  /* horizontally aligned by default */
   justify-content: center; /* centers them horizontally if you'd like */
   align-items: center;     /* vertically center items in the row */
