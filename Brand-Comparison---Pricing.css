@@ -47,7 +47,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 817px;
+    min-height: auto;
   }
 
   .u-section-1 .u-image-1 {
