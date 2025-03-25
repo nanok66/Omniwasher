@@ -107,7 +107,7 @@
 @media (max-width: 767px) {
   .footer-pre {
     flex-direction: column-reverse;
-    align-items: flex-start;  /* or center, etc. */
+    align-items: center;  /* or center, etc. */
     gap: 1rem;
   }
 
