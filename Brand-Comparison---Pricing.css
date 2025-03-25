@@ -100,7 +100,7 @@
   flex-direction: row;  /* horizontally aligned by default */
   justify-content: center; /* centers them horizontally if you'd like */
   align-items: center;     /* vertically center items in the row */
-  gap: 2rem;              /* space between items */
+  gap: 3rem;              /* space between items */
 }
 
 @media (max-width: 767px) {
