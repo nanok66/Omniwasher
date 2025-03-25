@@ -95,18 +95,20 @@
   margin-bottom: 60px;
 }
 
-.footer-contact-info {
+.footer-main {
   display: flex;
-  flex-direction: column-reverse;
-  flex-direction: row;  /* horizontally aligned by default */
-  justify-content: center; /* centers them horizontally if you'd like */
-  align-items: center;     /* vertically center items in the row */
-  gap: 1rem;              /* space between items */
+  flex-direction: row;
+  justify-content: space-between; /* icons on left, contact info on right */
+  align-items: center;           /* vertically center them in the row */
+  gap: 1rem;                     /* spacing between items */
 }
 
+/* On mobile, stack them vertically */
 @media (max-width: 767px) {
-  .footer-contact-info {
-    flex-direction: column;
-    align-items: flex-start; /* or center, whichever you prefer */
+  .footer-main {
+    flex-direction: column-reverse;
+    align-items: flex-start;  /* or center, etc. */
+    gap: 1rem;
   }
 }
+
