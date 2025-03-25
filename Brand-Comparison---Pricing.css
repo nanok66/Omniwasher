@@ -108,7 +108,7 @@
   .footer-pre {
     flex-direction: column-reverse;
     align-items: center;  /* or center, etc. */
-    gap: 1rem;
+    gap: 3rem;
   }
 
 .footer-main {
