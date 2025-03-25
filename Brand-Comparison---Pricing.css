@@ -125,7 +125,7 @@
   .footer-main {
     flex-direction: column-reverse;
     align-items: flex-start;  /* or center, etc. */
-    gap: 1rem;
+    gap: 3rem;
   }
 }
 
