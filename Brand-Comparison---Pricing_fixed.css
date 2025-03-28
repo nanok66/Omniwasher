@@ -1,0 +1,218 @@
+.u-section-1 .u-sheet-1 {
+  min-height: auto;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 838px;
+  background-image: url("images/comparisongraph.png");
+  /* background-position: 50% 50%; */
+  background-position: center;
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 714px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 691px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 529px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 794px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: auto;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 500px;
+  }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 1027px;
+}
+
+.u-section-2 .u-text-1 {
+  margin: 29px auto 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  margin: 9px 0 60px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 612px;
+}
+
+.u-section-3 .u-text-1 {
+  margin-bottom: 0;
+}
+
+.u-section-3 .u-custom-html-1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.footer-pre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* icons on left, contact info on right */
+  align-items: center;           /* vertically center them in the row */
+  gap: 1rem;                     /* spacing between items */
+}
+
+/* On mobile, stack them vertically */
+@media (max-width: 767px) {
+  .footer-pre {
+    flex-direction: column-reverse;
+    align-items: center;  /* or center, etc. */
+    gap: 3rem;
+  }
+
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* icons on left, contact info on right */
+  align-items: center;           /* vertically center them in the row */
+  gap: 1rem;                     /* spacing between items */
+}
+
+
+/* On mobile, stack them vertically */
+@media (max-width: 767px) {
+  .footer-main {
+    flex-direction: column-reverse;
+    align-items: center;  /* or center, etc. */
+    gap: 3rem;
+  }
+}
+
+
+
+.u-footer-local {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+}
+
+.u-sheet-local {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-pre-local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-main-local {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.u-social-icons-local {
+  display: flex;
+  gap: 1rem;
+}
+
+.u-footer-contact-local {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: right;
+}
+
+.u-footer-contact-local a {
+  color: white;
+  text-decoration: none;
+}
+
+.u-footer-contact-local a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .footer-main-local {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .u-footer-contact-local {
+    text-align: center;
+  }
+}
+
+/* === FIXES FOR LOCAL FOOTER === */
+.u-social-icons-local svg {
+  width: 2em;
+  height: 2em;
+  fill: white;
+}
+
+.footer-pre-local {
+  width: 100%;
+}
+
+.footer-main-local {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+
+.u-footer-local {
+  background-color: #333;
+  color: white;
+  padding: 3rem 1rem;
+}
