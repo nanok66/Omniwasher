@@ -44385,8 +44385,10 @@ a.u-link.u-text-hover-grey-90:hover {
   color: rgb(0, 122, 185) !important;
 }
 
+/*  greg edit - first of 3 values was -29px */
+
 .u-footer .u-text-1 {
-  margin: -29px 278px 0 auto;
+  margin: 10px 278px 0 auto;
 }
 
 .u-footer .u-btn-1 {
