@@ -44388,7 +44388,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*  greg edit - first of 3 values was -29px */
 
 .u-footer .u-text-1 {
-  margin: 10px 278px 0 auto;
+  margin: -29px 278px 0 auto;
 }
 
 .u-footer .u-btn-1 {
@@ -44414,10 +44414,10 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 116px;
   }
 
-	  /*  greg edit: margin-top: was -29px changed to 10 */
+	  /*  greg edit: margin-top: was -29px changed to 0 */
 
   .u-footer .u-text-1 {
-    margin-top: 0px;
+    margin-top: -29px;
     margin-right: 278px;
   }
 
