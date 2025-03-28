@@ -4,6 +4,7 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -44385,8 +44386,6 @@ a.u-link.u-text-hover-grey-90:hover {
   color: rgb(0, 122, 185) !important;
 }
 
-/*  greg edit - first of 3 values was -29px */
-
 .u-footer .u-text-1 {
   margin: -29px 278px 0 auto;
 }
@@ -44413,8 +44412,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-width: 94px;
     width: 116px;
   }
-
-	  /*  greg edit: margin-top: was -29px changed to 0 */
 
   .u-footer .u-text-1 {
     margin-top: -29px;
