@@ -44414,8 +44414,10 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 116px;
   }
 
+	  /*  greg edit: margin-top: was -29px changed to 10 */
+
   .u-footer .u-text-1 {
-    margin-top: -29px;
+    margin-top: 0px;
     margin-right: 278px;
   }
 
