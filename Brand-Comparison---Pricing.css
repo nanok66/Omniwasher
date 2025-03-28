@@ -150,9 +150,14 @@
   flex-direction: column;
 }
 
+.footer-pre-local {
+  width: 100%;
+}
+
 .footer-main-local {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
   width: 100%;
@@ -195,4 +200,8 @@
   width: 2em;
   height: 2em;
   fill: white;
+}
+
+.footer-pre-local {
+  width: 100%;
 }
