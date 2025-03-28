@@ -103,14 +103,6 @@
   gap: 1rem;                     /* spacing between items */
 }
 
-/* On mobile, stack them vertically */
-@media (max-width: 767px) {
-  .footer-pre {
-    flex-direction: column-reverse;
-    align-items: center;  /* or center, etc. */
-    gap: 3rem;
-  }
-
 .footer-main {
   display: flex;
   flex-direction: row;
@@ -118,10 +110,14 @@
   align-items: center;           /* vertically center them in the row */
   gap: 1rem;                     /* spacing between items */
 }
-}
 
 /* On mobile, stack them vertically */
 @media (max-width: 767px) {
+  .footer-pre {
+    flex-direction: column-reverse;
+    align-items: center;  /* or center, etc. */
+    gap: 3rem;
+  }
   .footer-main {
     flex-direction: column-reverse;
     align-items: center;  /* or center, etc. */
