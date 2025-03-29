@@ -44449,6 +44449,9 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-btn-2 {
     margin-left: 0;
   }
+ .u-footer .u-btn-3 {
+    margin-left: 0;
+  }	
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
