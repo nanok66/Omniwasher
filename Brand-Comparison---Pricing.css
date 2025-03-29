@@ -103,7 +103,14 @@
   gap: 1rem;                     /* spacing between items */
 }
 
-  
+  /* On mobile, stack them vertically */
+@media (max-width: 767px) {
+  .footer-pre {
+    flex-direction: column-reverse;
+    align-items: center;  /* or center, etc. */
+    gap: 3rem;
+  }
+
 
 
 .footer-main {
