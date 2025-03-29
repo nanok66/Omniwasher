@@ -107,6 +107,7 @@
 @media (max-width: 767px) {
   .footer-pre {
     align-items: center;  /* or center, etc. */
+    gap: 3rem;
   }
 }
 
