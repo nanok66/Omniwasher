@@ -110,7 +110,7 @@
     align-items: center;  /* or center, etc. */
     gap: 3rem;
   }
-
+}
 .footer-main {
   display: flex;
   flex-direction: row;
