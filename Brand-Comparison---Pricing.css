@@ -103,10 +103,7 @@
   gap: 1rem;                     /* spacing between items */
 }
 
-  .footer-pre {
-    align-items: center;  /* or center, etc. */
-    gap: 3rem;
-  }
+  
 
 
 .footer-main {
