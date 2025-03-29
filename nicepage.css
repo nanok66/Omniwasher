@@ -44407,6 +44407,14 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -28px auto 42px 336px;
   padding: 0;
 }
+
+.u-footer .u-btn-3 {
+  background-image: none;
+  font-size: 1.125rem;
+  margin: 1px auto 42px 336px;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-footer .u-social-icons-1 {
     min-width: 94px;
@@ -44426,6 +44434,12 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -28px;
     margin-left: 136px;
   }
+
+  .u-footer .u-btn-3 {
+    margin-top: 1px;
+    margin-left: 136px;
+  }
+	
 }
 @media (max-width: 991px) {
   .u-footer .u-text-1 {
