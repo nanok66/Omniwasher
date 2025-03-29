@@ -221,7 +221,7 @@
   .footer-phone-button {
     order: 3;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
   }
 }
