@@ -205,3 +205,27 @@
 .footer-pre-local {
   width: 100%;
 }
+
+  .footer-phone-button {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-phone-button:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .footer-phone-button {
+    order: 3;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
